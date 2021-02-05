@@ -77,15 +77,12 @@ nav ul li:hover {
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 3px;
-}
-
-.carousel .slideblock .slide-caption .slider_btn a {
   color: #454545;
   text-decoration: none;
   cursor: pointer;
 }
 
-.carousel .slideblock .slide-caption .slider_btn a:hover {
+.carousel .slideblock .slide-caption .slider_btn:hover {
   color: #a1a1a1;
 }
 

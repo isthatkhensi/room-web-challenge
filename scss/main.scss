@@ -68,15 +68,12 @@ nav {
         text-transform: uppercase;
         font-size: 14px;
         letter-spacing: 3px;
+        color: $v-darkgray;
+        text-decoration: none;
+        cursor: pointer;
 
-        a {
-          color: $v-darkgray;
-          text-decoration: none;
-          cursor: pointer;
-
-          &:hover {
-            color: $dark-gray;
-          }
+        &:hover {
+          color: $dark-gray;
         }
       }
 
