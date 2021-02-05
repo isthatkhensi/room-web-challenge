@@ -73,10 +73,10 @@ nav {
           color: $v-darkgray;
           text-decoration: none;
           cursor: pointer;
-        }
-        &:hover {
-          color: $dark-gray;
-          cursor: pointer;
+
+          &:hover {
+            color: $dark-gray;
+          }
         }
       }
 

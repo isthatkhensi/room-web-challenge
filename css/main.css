@@ -85,9 +85,8 @@ nav ul li:hover {
   cursor: pointer;
 }
 
-.carousel .slideblock .slide-caption .slider_btn:hover {
+.carousel .slideblock .slide-caption .slider_btn a:hover {
   color: #a1a1a1;
-  cursor: pointer;
 }
 
 .carousel .slideblock .slide-caption img {
