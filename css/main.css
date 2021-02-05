@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  color: #a1a1a1;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+nav {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 59%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+  z-index: 998;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 80px;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 12px;
+  padding-right: 25px;
+  text-transform: lowercase;
+  color: white;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel .slideblock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 900;
+}
+
+.carousel .slideblock .slide-caption {
+  width: 41%;
+  padding: 100px;
+  z-index: 999;
+}
+
+.carousel .slideblock .slide-caption .slider-title {
+  font-size: 30px;
+  color: #454545;
+  padding-bottom: 25px;
+}
+
+.carousel .slideblock .slide-caption .slider-p {
+  line-height: 1rem;
+}
+
+.carousel .slideblock .slide-caption .slider_btn {
+  padding-top: 50px;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.carousel .slideblock .slide-caption .slider_btn a {
+  color: #454545;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.carousel .slideblock .slide-caption .slider_btn:hover {
+  color: #a1a1a1;
+  cursor: pointer;
+}
+
+.carousel .slideblock .slide-caption img {
+  padding-left: 40px;
+}
+
+.carousel .slider-arrows {
+  position: absolute;
+  z-index: 1000;
+  top: 447px;
+  right: 437px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.carousel .slider-arrows .prev,
+.carousel .slider-arrows .next {
+  border: none;
+  background-color: black;
+  padding: 30px;
+  margin: 0;
+}
+
+.carousel .slider-arrows .prev:focus,
+.carousel .slider-arrows .next:focus {
+  outline: none;
+}
+
+.carousel .slider-arrows .prev:hover,
+.carousel .slider-arrows .next:hover {
+  background-color: #454545;
+  cursor: pointer;
+}
+
+.carousel .slider-arrows .next {
+  right: 0;
+}
+
+.about-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about {
+  padding: 50px;
+}
+
+.about .title {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #454545;
+  padding-bottom: 20px;
+}
+
+.about p {
+  line-height: 15px;
+}
+
+.footer {
+  font-size: 12px;
+  text-align: center;
+  color: #454545;
+  padding: 20px 0px;
+}
+
+.footer a {
+  color: #e2c9a9;
+}
+/*# sourceMappingURL=main.css.map */
